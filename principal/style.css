@@ -1,6 +1,7 @@
 body {
     font: 16px 'Roboto', sans-serif;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 .cabecario {
@@ -101,11 +102,20 @@ a {
     color: rgb(19, 116, 234);
 }
 
-#sobre { 
-    width: 1200px;
+.sobre { 
+    width: 800px;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     margin: -1px 45px;
+}
+
+#direita {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: right;
+    margin-right: 45px;
+    margin-left: 550px;
 }
 
 .topicos {
@@ -119,8 +129,20 @@ a {
     background-color: rgb(1, 1, 138);
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    margin: 20px 10px;
+    padding: 16px 36px;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn2 {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);   
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px 10px;
+    padding: 15px 35px;
+    font-size: 27px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -133,9 +155,10 @@ a {
     border-radius: 60px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     background-color: rgb(255, 255, 255);
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 10px 40px;
+    width: 1400px;
+    height: 2750px;
+    margin: 0 30px;
+    padding: 20px 30px;
 }
 
 #projetos {
@@ -190,3 +213,85 @@ a {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+#imagemcontato {
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height:95px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px black;
+    float: left;
+    margin: 0px 30px;
+}
+
+#rodape {
+    align-items: center;
+    background: black;
+    color: white;
+    height: 380px;
+    width: 1521px;
+    margin: -61px;
+    border-radius: 80px 80px 0px 0px;
+}
+
+#contatostext {
+    color: white;
+    position: relative;
+    top:10px;
+    font-size: 50px;
+}
+
+#links {
+    color: white;
+    position:relative;
+    left: 30px;
+}
+
+#direitos {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 120px;
+    font-size: 16px;
+}
+
+#habilidades {
+    width: 100%;;
+    height: 160px;
+    position: relative;
+    left: 30px;
+}
+
+.caixadehabilidade {
+    background-color: rgb(239, 237, 237);
+    height: 90px;
+    width: 250px;
+    float: left;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
+
+.habilidadeimg {
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.habilidadetext {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -52px;
+    left: 130px;
+}
+
+#habilidadetext2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -52px;
+    left: 100px;
+}
