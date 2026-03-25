@@ -34,7 +34,7 @@ body {
 }
 
 .fundo {
-    background-image: url('../imagens/fundoazul.png');
+    background-image: url('imagens/fundoazul.png');
     background-position: fixed;
     width:1520px;
     height:500px;
@@ -78,7 +78,7 @@ a {
 }
 
 .hero {
-    background-image: url('../imagens/fundoazul.png'), url('../imagens/eu.png');
+    background-image: url('imagens/fundoazul.png'), url('imagens/eu.png');
     border-radius: 60px;
     background-size: cover;
     background-position: center;
