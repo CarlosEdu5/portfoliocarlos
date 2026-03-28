@@ -1,5 +1,41 @@
+@font-face {
+    font-family: 'Kenyan Coffee';
+    src: url('fonts/KenyanCoffee-Italic.woff2') format('woff2'),
+        url('fonts/KenyanCoffee-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee';
+    src: url('fonts/KenyanCoffee-Regular.woff2') format('woff2'),
+        url('fonts/KenyanCoffee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee';
+    src: url('fonts/KenyanCoffee-Bold.woff2') format('woff2'),
+        url('fonts/KenyanCoffee-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee';
+    src: url('fonts/KenyanCoffee-BoldItalic.woff2') format('woff2'),
+        url('fonts/KenyanCoffee-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
 body {
-    font: 16px 'Roboto', sans-serif;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     line-height: 1.5;
     overflow-x: hidden;
 }
@@ -14,7 +50,7 @@ body {
 
 #logo{
     position: relative;
-    top: 13px;
+    top: 19px;
 }
 
 .principal {
@@ -35,16 +71,16 @@ body {
 
 .fundo {
     background-image: url('imagens/fundoazul.png');
-    background-position: fixed;
+    background-attachment: fixed;
     width:1520px;
     height:500px;
     background-position: top left;
-    padding: none;
+    padding: 0;
 }
 
-.h1 {
-    color:rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
 }
 
 a {
@@ -54,21 +90,18 @@ a {
     padding-right:110px;
     position: relative;
     top: -27px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 #descricao { 
     width: 600px;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
     position: relative;
     right: -100px;
 }
 
 .titulo {
-    font-size: 56px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
     color: white;
 }
 
@@ -97,21 +130,21 @@ a {
 
 #sobremim { 
     width: 700px;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     color: rgb(19, 116, 234);
 }
 
 .sobre { 
     width: 800px;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     margin: -1px 45px;
 }
 
 #direita {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     display: block;
     text-align: right;
     margin-right: 45px;
@@ -119,14 +152,15 @@ a {
 }
 
 .topicos {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     color: rgb(0, 0, 88);
     margin: -1px 25px;
 }
 
 #btn {
     background-color: rgb(1, 1, 138);
+    font-weight: bold;
     color: white;
     border: none;
     margin: 20px 10px;
@@ -184,8 +218,8 @@ a {
 
 .tituloprojeto {
     color: rgb(0, 0, 88);
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
+    font-size: 35px;
     margin: 10px 40px;
 }
 
@@ -276,8 +310,8 @@ a {
 
 .habilidadetext {
     color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
+    font-size: 26px;
     position: relative;
     top: -52px;
     left: 130px;
@@ -285,8 +319,8 @@ a {
 
 #habilidadetext2 {
     color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
+    font-size: 26px;
     position: relative;
     top: -52px;
     left: 100px;
