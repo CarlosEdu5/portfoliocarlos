@@ -67,6 +67,12 @@ body {
     transform: translateY(-50%);
     height: 640px;
     width: auto;
+    transition: transform 0.3s;
+    transform-origin: bottom center;
+}
+
+#eu:hover {
+    transform: translateY(-50%) scale(1.05);
 }
 
 .fundo {
@@ -83,14 +89,31 @@ h1 {
     font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
 }
 
-a {
+#navegacao {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+}
+
+#navegacao a{
+    position: relative;
+    top: -28px;
+    right: 30px;
+    padding: 0px 80px;
+    margin: 0px -30px;
     color: rgb(0, 0, 88);
     text-decoration: none;
     font-weight: bold;
-    padding-right:110px;
-    position: relative;
-    top: -27px;
     font-size: 25px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#navegacao a:hover {
+    background-color: rgb(0, 0, 88);
+    color: white;
+    transform: translateY(-2px);
 }
 
 #descricao { 
@@ -101,13 +124,10 @@ a {
 }
 
 .titulo {
+    position: relative;
+    top: 70px;
     font-size: 80px;
     color: white;
-}
-
-#github {
-    position:relative;
-    top: -17px;
 }
 
 .hero {
@@ -130,6 +150,8 @@ a {
 
 #sobremim { 
     width: 700px;
+    position: relative;
+    top: 0px;
     font-size: 32px;
     font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     color: rgb(19, 116, 234);
@@ -156,6 +178,7 @@ a {
     font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
     color: rgb(0, 0, 88);
     margin: -1px 25px;
+    text-transform: uppercase;
 }
 
 #btn {
@@ -168,6 +191,13 @@ a {
     font-size: 27px;
     cursor: pointer;
     border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+#btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 88);
+    transform: translateY(-2px);
 }
 
 #btn2 {
@@ -179,6 +209,14 @@ a {
     font-size: 27px;
     cursor: pointer;
     border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+#btn2:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 88);
+    border: none;
+    transform: translateY(-2px);
 }
 
 #hero-background {
@@ -207,6 +245,12 @@ a {
     margin: 15px;
     border-radius: 60px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.caixadeprojeto:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s;
 }
 
 .imagemprojeto {
@@ -271,10 +315,19 @@ a {
     font-size: 50px;
 }
 
-#links {
+.colorlinks {
     color: white;
-    position:relative;
-    left: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    right: 12px;
+    top: -20px;
+    transition: transform 0.3s;
+}
+
+.colorlinks:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s;
 }
 
 #direitos {
@@ -290,6 +343,7 @@ a {
     height: 160px;
     position: relative;
     left: 30px;
+    align-items: center;
 }
 
 .caixadehabilidade {
@@ -299,6 +353,7 @@ a {
     float: left;
     margin: 10px 40px;
     border-radius: 5px;
+    align-items: center;
 }
 
 .habilidadeimg {
@@ -306,6 +361,7 @@ a {
     position: relative;
     top: 20px;
     left: 20px;
+    align-items: center;
 }
 
 .habilidadetext {
