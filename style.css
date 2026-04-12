@@ -84,6 +84,14 @@ body {
     padding: 0;
 }
 
+#gif {
+    position: relative;
+    left: 255px;
+    top: 80px;
+    inline-size: 400px;
+    margin: -150px -150px;
+}
+
 h1 {
     color: rgb(0, 0, 0);
     font-family: 'Kenyan Coffee', 'Roboto', sans-serif;
